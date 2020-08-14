@@ -27,4 +27,14 @@ import java.util.Arraylist;
      */
 
     private Arraylist<Transaction> transactions;
+
+    public Account(String name, User holder, Bank theBank){
+
+        // set the account name and holder
+        this.name = name;
+        this.holder = holder;
+
+        // get new account UUID
+        this.uuid = theBank.getNewAccountUUID();
+    }
 }
