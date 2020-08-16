@@ -8,5 +8,14 @@ public class Bank {
     private ArrayList<User> users;
 
     private ArrayList<Account> accounts;
+
+    public String getNewUserUUID(){
+        return name;
+
+    }
+
+    public String getNewAccountUUID(){
+
+    }
     
 }
